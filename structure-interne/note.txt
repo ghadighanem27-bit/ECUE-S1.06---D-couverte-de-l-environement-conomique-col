@@ -1,97 +1,132 @@
  1. Proposition d’enquête sur les pratiques et attentes en matière de transports non polluants
+
+
+
+
 1.1. Objectif de l’enquête
 
 Comprendre :
 
-les habitudes actuelles de déplacement des Niçois et des touristes,
+- Les habitudes actuelles de déplacement des Niçois et des touristes,
 
-leurs attentes concernant les transports non polluants,
+- Leurs attentes concernant les transports non polluants,
 
-les freins à l’utilisation de solutions écologiques,
+- Les freins à l’utilisation de solutions écologiques,
 
-leur avis sur les projets éventuels de la municipalité.
+- Leur avis sur les projets éventuels de la municipalité.
+
+
+
 
 1.2. Méthode de recueil des données
 
- Méthode choisie : enquête par questionnaire (format hybride : en ligne + sur le terrain)
+ Méthode choisie : enquête par questionnaire (en ligne + sur le terrain)
 
 Justifications :
 
-permet de toucher à la fois les résidents (via Internet) et les touristes (via enquête en centre-ville, promenade, gares),
+- Rermet de toucher à la fois les résidents (via Internet) et les touristes (via enquête physique),
 
-rapide à administrer, peu coûteuse,
+- Rapide à administrer, peu coûteuse,
 
-adaptée à des questions courtes et factuelles,
+- Adaptée à des questions courtes et factuelles,
 
-permet des traitements statistiques simples pour appuyer les décisions.
+- Permet des traitements statistiques simples pour appuyer les décisions.
+
+
+
 
 1.3. Méthode d’échantillonnage
 
- Échantillonnage stratifié (deux grandes catégories : Niçois et touristes).
+Échantillonnage stratifié (deux grandes catégories : Niçois et touristes).
 À l’intérieur : répartition par âge, sexe, zone d’habitation, saison pour les touristes.
 
 Justification :
 
-garantit que chaque groupe est représenté,
+- Garantit que chaque groupe soit représenté
 
-évite les biais liés à la concentration uniquement sur les habitants ou uniquement sur les visiteurs,
+- Evite les eventuelles erreurs liées à la concentration uniquement sur les habitants ou uniquement sur les touristes
 
-permet de comparer les préférences entre les deux publics.
+- Permet de comparer les préférences entre les deux publics.
+
+
+
 
 1.4. Taille de l’échantillon
 
 Pour un projet municipal de cette ampleur :
- Environ 500 répondants, répartis ainsi :
+    Environ 500 personnes interrogées, réparties ainsi :
 
-300 Niçois
+- 300 Niçois
 
-200 touristes
+- 200 Touristes
 
 Cette taille permet :
 
-une marge d’erreur raisonnable (5 à 6 %),
+- Une marge d’erreur raisonnable
 
-une capacité à dégager des tendances fiables.
+- Une capacité à dégager des tendances fiables
+
+
+
 
 1.5. Forme des questions
 
 Types de questions utilisées :
 
-questions fermées (choix multiples, oui/non),
+- Questions fermées (choix multiples, oui/non)
 
-échelles de satisfaction (1 à 5),
+- Echelles de satisfaction (1 à 5)
 
-questions ouvertes pour recueillir des idées nouvelles,
+- Questions ouvertes pour obtenir des idées nouvelles
 
-questions de profil (âge, origine…).
+- Questions de profil (âge, origine…)
+
+
+
 
 1.6. Exemple de questionnaire
 
 1. Quels moyens de transport utilisez-vous principalement à Nice ?
 ⤷ voiture personnelle / bus / tramway / vélo / trottinette / marche / taxi-VTC / autre
 
+
 2. Êtes-vous satisfait(e) des transports actuels à Nice ?
 ⤷ échelle 1 (pas du tout) à 5 (très satisfait)
+
 
 3. Souhaiteriez-vous davantage de transports non polluants ?
 ⤷ oui / non / sans avis
 
+
 4. Quels moyens non polluants vous attirent le plus ?
 ⤷ tram / bus électriques / vélo / vélos en libre-service / navettes autonomes / téléphérique urbain / autre
 
-5. Quels freins vous empêchent d'utiliser ces transports ?
+
+5. Qu'es-ce qui vous empêche d'utiliser ces transports ?
 ⤷ manque d’infrastructures / prix / sécurité / habitudes / distance / autre
+
 
 6. Quel type d’amélioration serait prioritaire selon vous ?
 ⤷ plus de pistes cyclables / plus de fréquences / parkings relais / prix réduits / plus de stations vélos…
+
 
 7. Seriez-vous prêt(e) à laisser votre voiture si l’offre non polluante était renforcée ?
 ⤷ oui / non / peut-être
 
 Les réponses fictives pourront être créées pour l’étude.
 
+
+
+
+
+
+
  2. Solutions possibles pour développer les transports non polluants à Nice
+
+
+
 2.1. Développer le réseau de transports électriques
+
  a) Extension du tramway
 
 Augmenter les lignes desservant les quartiers périphériques.
@@ -103,6 +138,7 @@ Bénéfice : durable, capacité élevée, attractif.
 Moins bruyant, moins polluant.
 Coût estimé : élevé (achat + bornes de recharge).
 Bénéfice : réduction pollution atmosphérique, image écologique.
+
 
 2.2. Renforcement des mobilités douces
  a) Réseau cyclable sécurisé
@@ -116,6 +152,7 @@ Bénéfice : encourage l’usage quotidien, sécurité accrue.
 Stations aux points stratégiques : gare, Vieux-Nice, Promenade.
 Coût : moyen (déploiement du service).
 Bénéfice : mobilité rapide, flexible, touristique.
+
 
 2.3. Encourager le report modal (laisser la voiture)
  a) Parkings relais (P+R) en entrée de ville
