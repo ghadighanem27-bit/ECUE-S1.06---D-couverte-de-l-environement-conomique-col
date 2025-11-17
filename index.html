@@ -1,9 +1,144 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accueil</title>
+    <link rel="icon" href="img/logo.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Open Chess</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <ul class="sidebar">
+          <li onclick="hidesidebar()">
+            <a href="#"><img src="/img/close.svg" alt="close" /></a>
+          </li>
+          <li class="animation">
+            <a href="/History/index.html">History <span></span></a>
+          </li>
+          <li class="animation">
+            <a href="/Learn/index.html">Learn <span></span></a>
+          </li>
+          <li class="animation">
+            <a href="/Play/index.html">Play <span></span></a>
+          </li>
+          <li class="animation">
+            <a href="/Info/index.html">Info <span></span></a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="/index.html"
+              ><h1 id="site-name">
+                <span class="home">Open Chess</span>
+              </h1></a
+            >
+          </li>
+          <li class="animation" class="hideOnMobile">
+            <a href="/History/index.html">History <span></span></a>
+          </li>
+          <li class="animation" class="hideOnMobile">
+            <a href="/Learn/index.html">Learn <span></span></a>
+          </li>
+          <li class="animation" class="hideOnMobile">
+            <a href="/Play/index.html">Play <span></span></a>
+          </li>
+          <li class="animation" class="hideOnMobile">
+            <a href="/Info/index.html">Info <span></span></a>
+          </li>
+          <li onclick="showsidebar()">
+            <a href="#"><img src="/img/menu.svg" alt="menu" /></a>
+          </li>
+        </ul>
+      </nav>
+      <script>
+        function showsidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "flex";
+        }
+        function hidesidebar() {
+          const sidebar = document.querySelector(".sidebar");
+          sidebar.style.display = "none";
+        }
+        function showLinkBar() {
+          const sidebar = document.querySelector(".Linkbar");
+          sidebar.style.display = "flex";
+        }
+        function hideLinkBar() {
+          const sidebar = document.querySelector(".Linkbar");
+          sidebar.style.display = "none";
+        }
+      </script>
+    </header>
+    <main>
+      <div class="title">
+        <h2><span>Open Chess</span></h2>
+      </div>
+      <div class="cards">
+        <section class="dev">
+          <img src="/img/brain.svg" alt="brain" width="35vw" height="35vh" />
+          <h3>Développement Intellectuel</h3>
+          <blockquote>
+            Les échecs stimulent la concentration, renforcent la mémoire et
+            aiguisent la pensée stratégique.
+          </blockquote>
+          <blockquote>
+            Chaque partie est un execice mental complet qui développe vos
+            capacités cognitives de manière ludique et efficace.
+          </blockquote>
+        </section>
+        <section class="access">
+          <img src="/img/groups.svg" alt="people" width="35vw" height="35vh" />
+          <h3>Accessible à Tous</h3>
+          <blockquote>
+            Un jeu universel qui transcende les âges et les frontières.
+          </blockquote>
+          <blockquote>
+            Des enfants de 4ans aux séniors, chacun peut progresser à son rythme
+            et découvrir le plaisir de la compétition intellectuelle dans un
+            environnement bienveillant.
+          </blockquote>
+        </section>
+        <section class="defi">
+          <img src="/img/trophy.svg" alt="trophy" width="35vw" height="35vh" />
+          <h3>Défi Intellectuel</h3>
+          <blockquote>
+            Entrez dans un univers facinant où chaque partie raconte une
+            histoire unique.
+          </blockquote>
+          <blockquote>
+            Chaque coup est une décision qui façonne votre destinée sur
+            l'échiquier, offrant des possibillités infinies et des moments de
+            satifactioin incomparables.
+          </blockquote>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="link">
+        <nav>
+          <ul class="Linkbar">
+            <li onclick="hideLinkBar()">
+              <a href="#"><img src="/img/close.svg" alt="close" /></a>
+            </li>
+            <li class="animation">
+              <a href="/video/index.html">vidéo <span></span></a>
+            </li>
+            <li class="animation">
+              <a href="/site/index.html">site <span></span></a>
+            </li>
+            <li class="animation">
+              <a href="/support/index.html">support <span></span></a>
+            </li>
+          </ul>
+        </nav>
+        <span onclick="showLinkBar()"
+          ><a href="#"><img src="/img/link.svg" alt="link" /></a
+        ></span>
+      </div>
+    </footer>
+  </body>
 </html>
