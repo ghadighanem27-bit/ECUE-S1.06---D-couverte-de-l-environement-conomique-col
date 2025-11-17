@@ -1,0 +1,13 @@
+projet-nice-transports/
+│
+├── index.html              → Page d'accueil + introduction
+├── enquete.html            → Méthodologie + échantillonnage + questionnaire
+├── solutions.html          → Solutions possibles
+├── couts.html              → Coûts des solutions proposées
+├── conclusion.html         → Conclusion générale
+│
+├── /img       → Images, logos, schémas
+│
+└── /css
+    └── styles.css           → Fichier CSS pour le style du site
+    

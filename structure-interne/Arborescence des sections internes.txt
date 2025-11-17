@@ -1,0 +1,30 @@
+index.html
+│
+├── Header (menu)
+├── Introduction
+└── Objectifs du projet
+
+
+enquete.html
+│
+├── Méthode de recueil des données
+├── Méthode d’échantillonnage
+└── Présentation du questionnaire
+
+
+solutions.html
+│
+├── Amélioration transports existants
+├── Mobilités douces
+├── Aménagements urbains
+└── Incitations / communication
+
+
+couts.html
+│
+└── Tableau / liste des coûts estimés par solution
+
+
+conclusion.html
+│
+└── Synthèse + recommandations finales
