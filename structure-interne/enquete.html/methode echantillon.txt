@@ -1,0 +1,72 @@
+1. Population cible
+L’étude s’adresse à deux groupes principaux :
+Les habitants de Nice : usagers réguliers des transports urbains.
+Les touristes : usagers occasionnels qui apportent un point de vue extérieur sur l’accessibilité et l’efficacité des transports.
+Ces deux catégories sont essentielles, car elles utilisent différemment les transports non polluants.
+
+2. Type d’échantillonnage choisi
+
+    Nous avons retenu un échantillonnage par quotas, basé sur des critères simples et accessibles :
+    -Statut : 50 % Niçois, 50 % touristes.
+
+    -Tranche d’âge :
+        -moins de 25 ans
+        -25–50 ans
+        -plus de 50 ans
+
+    -Fréquence d’utilisation des transports : 
+        - régulière 
+        - occasionnelle.
+
+    -Pourquoi l’échantillonnage par quotas ?
+        -Il permet d’obtenir un échantillon représentatif de la population étudiée.
+        -Il assure un équilibre entre les profils interrogés.
+        -Il évite que les réponses soient dominées par une seule catégorie (ex : seulement des jeunes, ou seulement des touristes).
+
+3. Taille de l’échantillon
+    L’objectif est d’obtenir entre 80 et 150 réponses par tranche d'age, ce qui est suffisant pour :
+        -dégager des tendances claires ;
+        -comparer les avis entre Niçois et touristes ;
+
+        -analyser des moyennes, pourcentages, et préférences.
+
+    Justification :
+        Pour une enquête descriptive à petite échelle, un échantillon de cette taille donne une bonne fiabilité tout en restant réalisable en un temps limité.
+
+4. Mode de sélection des participants
+
+Les participants ont été sélectionnés selon deux modes complémentaires :
+
+A. En ligne (auto-sélection contrôlée)
+
+Le questionnaire numérique a été partagé dans :
+
+des groupes Facebook / Instagram locaux,
+
+des forums touristiques,
+
+des communautés étudiantes niçoises.
+
+L’objectif était de toucher une population variée.
+
+B. Sur le terrain
+
+Des questionnaires ont été proposés :
+
+à proximité des stations de tram (Jean Médecin, Masséna),
+
+sur la Promenade des Anglais,
+
+dans le Vieux Nice.
+
+Cette méthode permet de garantir la présence de touristes et d’usagers réels.
+
+5. Limites de l’échantillonnage
+
+Une légère surreprésentation de personnes connectées (pour la partie en ligne).
+
+L’échantillonnage par quotas n’est pas totalement aléatoire.
+
+Certains profils (personnes âgées, usagers matinaux) peuvent être moins représentés.
+
+Cependant, la combinaison quotas + diffusion mixte permet d’obtenir un échantillon suffisamment fiable pour l’objectif du projet.
