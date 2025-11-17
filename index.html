@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,23 +11,6 @@
   <body>
     <header>
       <nav>
-        <ul class="sidebar">
-          <li onclick="hidesidebar()">
-            <a href="#"><img src="/img/close.svg" alt="close" /></a>
-          </li>
-          <li class="animation">
-            <a href="/History/index.html">History <span></span></a>
-          </li>
-          <li class="animation">
-            <a href="/Learn/index.html">Learn <span></span></a>
-          </li>
-          <li class="animation">
-            <a href="/Play/index.html">Play <span></span></a>
-          </li>
-          <li class="animation">
-            <a href="/Info/index.html">Info <span></span></a>
-          </li>
-        </ul>
         <ul>
           <li>
             <a href="/index.html"
@@ -49,29 +31,8 @@
           <li class="animation" class="hideOnMobile">
             <a href="/Info/index.html">Info <span></span></a>
           </li>
-          <li onclick="showsidebar()">
-            <a href="#"><img src="/img/menu.svg" alt="menu" /></a>
-          </li>
         </ul>
       </nav>
-      <script>
-        function showsidebar() {
-          const sidebar = document.querySelector(".sidebar");
-          sidebar.style.display = "flex";
-        }
-        function hidesidebar() {
-          const sidebar = document.querySelector(".sidebar");
-          sidebar.style.display = "none";
-        }
-        function showLinkBar() {
-          const sidebar = document.querySelector(".Linkbar");
-          sidebar.style.display = "flex";
-        }
-        function hideLinkBar() {
-          const sidebar = document.querySelector(".Linkbar");
-          sidebar.style.display = "none";
-        }
-      </script>
     </header>
     <main>
       <div class="title">
@@ -117,28 +78,5 @@
         </section>
       </div>
     </main>
-    <footer>
-      <div class="link">
-        <nav>
-          <ul class="Linkbar">
-            <li onclick="hideLinkBar()">
-              <a href="#"><img src="/img/close.svg" alt="close" /></a>
-            </li>
-            <li class="animation">
-              <a href="/video/index.html">vidéo <span></span></a>
-            </li>
-            <li class="animation">
-              <a href="/site/index.html">site <span></span></a>
-            </li>
-            <li class="animation">
-              <a href="/support/index.html">support <span></span></a>
-            </li>
-          </ul>
-        </nav>
-        <span onclick="showLinkBar()"
-          ><a href="#"><img src="/img/link.svg" alt="link" /></a
-        ></span>
-      </div>
-    </footer>
   </body>
 </html>
