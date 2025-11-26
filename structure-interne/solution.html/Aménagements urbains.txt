@@ -1,0 +1,57 @@
+5. Aménagement urbain
+
+    L’intégration de bornes de recharge pour vélos dans l’espace public nécessite 
+    une réflexion approfondie sur l’aménagement urbain afin de garantir une implantation harmonieuse,
+    fonctionnelle et respectueuse des usages existants. Plusieurs éléments doivent être pris en compte
+    pour assurer la réussite du projet.
+
+5.1 Intégration dans l’espace public
+
+    Les bornes doivent s’insérer sans gêner la circulation piétonne,
+    les accès aux commerces, les voies de secours ou les aménagements 
+    existants (arrêts de bus, terrasses, passages PMR).
+    Une distance minimale doit être respectée pour assurer la fluidité des déplacements
+    et éviter la saturation visuelle ou physique.
+
+5.2 Choix des emplacements
+
+    Les stations existantes constituent les points de référence, mais leur transformation 
+    en stations de recharge doit tenir compte :
+    de la largeur disponible sur le trottoir ou la zone piétonne,
+    de la proximité de points électriques,
+    de l’exposition (ensoleillement, risques de vandalisme),
+    des zones prioritaires (quartiers touristiques, gares, universités,
+    zones résidentielles à forte densité).
+    Les zones très fréquentées, comme la Promenade des Anglais ou Jean Médecin,
+    peuvent nécessiter des stations renforcées avec plus de bornes.
+
+5.3 Accessibilité et ergonomie
+
+    Pour encourager l’usage du service, l’aménagement doit être :
+    simple d’accès, même pour des usagers novices ;
+    compatible avec les normes PMR, notamment avec des espaces de manœuvre suffisants ;
+    visible et identifiable, avec une signalétique claire (panneaux, marquages au sol).
+
+5.4 Intégration paysagère
+
+    L’ajout de bornes ne doit pas dégrader le paysage urbain, surtout dans une ville touristique comme Nice.
+    Des choix de design adaptés permettent de :
+    préserver l’identité visuelle du quartier,
+    minimiser l’impact visuel,
+    rendre les bornes esthétiques, modernes et cohérentes avec le mobilier urbain existant.
+
+5.5 Sécurité et maintenance
+
+Un aménagement bien conçu réduit les risques de :
+
+    dégradations,
+    mauvais stationnements gênants,
+    accumulation de vélos en dehors des emplacements.
+    La proximité avec les voies techniques ou les réseaux facilite aussi la maintenance régulière.
+
+5.6 Adaptation aux contraintes locales
+
+    Certaines zones présentent des particularités :
+    rues étroites du Vieux-Nice, où l’installation peut être limitée ;
+    zones à forte pente, nécessitant des solutions renforcées pour éviter les chutes ou l’encombrement ;
+    secteurs patrimoniaux, où les installations modernes doivent être discrètes ou spécifiquement validées.
