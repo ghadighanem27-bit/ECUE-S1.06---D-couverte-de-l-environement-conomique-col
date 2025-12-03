@@ -43,7 +43,7 @@ main {
   justify-content: center;
   align-items: flex-start;
   gap: 5vw;
-  margin-top: 12vh;
+  margin-top: 5vh;
 }
 
 section {
@@ -53,8 +53,7 @@ section {
 
   border-radius: 0.52vw;
   padding: 6.7vh 3.82vw;
-  min-width: 15.4vw;
-  max-width: 21.9vw;
+  width: 25vw;
   box-sizing: border-box;
   word-break: break-word;
 }
@@ -74,15 +73,12 @@ section h3 {
   text-align: center;
   margin-bottom: 1.85vh;
   text-transform: uppercase;
-  font-style: italic;
   transition: 0.5s;
 }
-section h3:hover {
-  transform: scale(1.2);
-}
+
 section blockquote {
-  font-family: "Times New Roman", Times, serif;
   color: rgba(255, 255, 255, 0.8);
+  
   font-style: oblique;
   margin-top: 1.3vh;
   border-bottom: #ffffff solid 1.5px;
@@ -112,3 +108,64 @@ section.contenu {
   min-width: 30vw;
   max-width: 80vw;
 }
+
+section.blog {
+  min-width: 65vw;
+  font-style: normal;
+
+}
+
+section.blog blockquote {
+  text-align: left;
+}
+
+/* Style général pour la liste */
+.liste ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 1rem 0;
+}
+
+.liste li {
+  list-style: none;
+    position: relative;
+    margin: 0.6rem 0;
+    padding-left: 25px;
+    color: #f1f1f1;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+/* Petit rond lumineux comme puce */
+.liste li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    height: 10px;
+    width: 10px;
+    background: #ffffffaa;
+    border-radius: 50%;
+    box-shadow: 0 0 6px #ffffff88;
+}
+
+/* ----- Sous-listes ----- */
+.liste li ul { 
+  margin-top: 0.5rem;
+  padding-left: 25px; /* indentation claire */
+}
+
+.liste li ul li {
+    margin: 0.4rem 0;
+    padding-left: 20px;
+    opacity: 0.9;
+}
+
+/* style différent pour les puces des sous-listes */
+.liste li ul li::before {
+    height: 8px;
+    width: 8px;
+    background: #9bd3ff;
+    box-shadow: 0 0 5px #9bd3ff;
+}
+
