@@ -78,8 +78,6 @@ section h3 {
 
 section blockquote {
   color: rgba(255, 255, 255, 0.8);
-  
-  font-style: oblique;
   margin-top: 1.3vh;
   border-bottom: #ffffff solid 1.5px;
   border-bottom-width: 20%;
