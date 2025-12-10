@@ -8,12 +8,18 @@
 
 body {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("/img/fond.jfif");
   background-attachment: fixed;
   width: 100%;
+}
+
+html, body{
+  height: 100vh;
 }
 
 header {
@@ -25,17 +31,25 @@ header {
   border-bottom: 2px solid #201e1e92;
   border-bottom-left-radius: 0.78vh;
 }
+
 footer {
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 2vh;
-  margin-left: 2vw;
-  z-index: 1000;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  margin-top: 50px;
+  background-color: #161616;
+  color: #e0e0e0;
+  border-top: 3px solid #ffffff;
+  padding-top: 40px;
+  font-size: 0.9rem;
 }
+
 main {
   margin-bottom: 0;
   width: 100%;
-  min-height: 20vh;
+  flex: 1;
+  width: 100%;
+  padding-top: 80px;
 }
 
 h2 {
@@ -114,7 +128,7 @@ section.contenu {
 }
 
 section.blog {
-  margin-top: 15vh;
+  margin-top: 8vh;
   min-width: 65vw;
   font-style: normal;
 
@@ -170,8 +184,8 @@ section.blog blockquote {
 .liste li ul li::before {
     height: 8px;
     width: 8px;
-    background: #9bd3ff;
-    box-shadow: 0 0 5px #9bd3ff;
+    background: #ffffff;
+    box-shadow: 0 0 5px #ffffff;
 }
 
 
@@ -217,3 +231,73 @@ section.blog blockquote {
     padding-left: 30px;
 }
 
+.footer-content {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  position: relative;
+  display: inline-block;
+}
+
+.footer-section h3::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-color: #ffffff;
+  margin-top: 5px;
+}
+
+.footer-section p {
+  line-height: 1.6;
+  color: #bbbbbb;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #bbbbbb;
+  transition: none;
+}
+
+.footer-section ul li a:hover {
+  color: #4db6ac;
+  font-weight: bold;
+}
+
+
+.footer-bottom {
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.55);
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #777;
+}
