@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionnaire – Transports non polluants à Nice</title>
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/nav.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="/index.html"
+              ><img
+                width="329"
+                height="56"
+                src="../img/ImageToStl.com_ville-de-nice-logo.png"
+                alt="Logo Nice"
+            /></a>
+          </li>
+          <li class="animation">
+            <a href="/Enquête/index.html" class="active"
+              >Enquête <span></span
+            ></a>
+          </li>
+          <li class="animation">
+            <a href="/Solutions/index.html">Solutions <span></span></a>
+          </li>
+          <li class="animation">
+            <a href="/Coûts/index.html">Coûts <span></span></a>
+          </li>
+          <li class="animation">
+            <a href="/Conclusion/index.html">Conclusion <span></span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="side-nav">
+        <img
+          src="../img/palm_tree_leafR.png"
+          alt="palm_tree"
+          width="100"
+          class="palm_right"
+        />
+        <ul>
+          <li>
+            <a href="/Enquête/methode-echantillonnage.html">Échantillonnage</a>
+          </li>
+          <li>
+            <a href="/Enquête/collecte-de-données.html">Collecte des données</a>
+          </li>
+          <li><a href="questionnaire.html" class="active">Questionnaire</a></li>
+          <li><a href="Resultats.html">Résultats</a></li>
+          <li><a href="Limites.html">Limites</a></li>
+        </ul>
+        <img
+          src="../img/palm_tree_leafL.png"
+          alt="palm_tree"
+          width="100"
+          class="palm_left"
+        />
+      </div>
+      <div class="container">
+        <h1>Questionnaire – Transports non polluants à Nice</h1>
+        <form>
+          <!-- Section 1 : Profil -->
+          <fieldset>
+            <legend>1. Profil du répondant</legend>
+
+            <label>1. Vous êtes :</label>
+            <div class="options">
+              <label
+                ><input type="radio" name="profil" value="habitant" /> Un
+                habitant de Nice</label
+              >
+              <label
+                ><input type="radio" name="profil" value="touriste" /> Un
+                touriste / visiteur</label
+              >
+            </div>
+
+            <label>2. Votre tranche d’âge :</label>
+            <div class="options">
+              <label
+                ><input type="radio" name="age" value="<25" /> Moins de 25
+                ans</label
+              >
+              <label
+                ><input type="radio" name="age" value="25-50" /> 25–50
+                ans</label
+              >
+              <label
+                ><input type="radio" name="age" value=">50" /> Plus de 50
+                ans</label
+              >
+            </div>
+
+            <label
+              >3. À quelle fréquence utilisez-vous les transports dans Nice
+              ?</label
+            >
+            <div class="options">
+              <label
+                ><input type="radio" name="frequence" value="regulier" />
+                Régulièrement (au moins 3 fois par semaine)</label
+              >
+              <label
+                ><input type="radio" name="frequence" value="occasionnel" />
+                Occasionnellement (1–2 fois par semaine ou moins)</label
+              >
+              <label
+                ><input type="radio" name="frequence" value="rare" /> Très
+                rarement</label
+              >
+            </div>
+          </fieldset>
+
+          <!-- Section 2 : Utilisation des transports -->
+          <fieldset>
+            <legend>2. Utilisation des transports actuels</legend>
+
+            <label
+              >4. Quels moyens de transport utilisez-vous le plus souvent à Nice
+              ?</label
+            >
+            <div class="options">
+              <label
+                ><input type="checkbox" name="transport" value="tramway" />
+                Tramway</label
+              >
+              <label
+                ><input type="checkbox" name="transport" value="bus" />
+                Bus</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="transport"
+                  value="velo_personnel"
+                />
+                Vélo personnel</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="transport"
+                  value="velo_libre_service"
+                />
+                Vélo en libre-service</label
+              >
+              <label
+                ><input type="checkbox" name="transport" value="trottinette" />
+                Trottinette (personnelle ou location)</label
+              >
+              <label
+                ><input type="checkbox" name="transport" value="marche" />
+                Marche</label
+              >
+              <label
+                ><input type="checkbox" name="transport" value="voiture" />
+                Voiture personnelle</label
+              >
+              <label
+                >Autre : <input type="text" name="autre_transport"
+              /></label>
+            </div>
+
+            <label
+              >5. Êtes-vous satisfait(e) des transports actuels dans Nice
+              ?</label
+            >
+            <div class="options">
+              <label
+                ><input
+                  type="radio"
+                  name="satisfaction"
+                  value="tres_satisfait"
+                />
+                Très satisfait(e)</label
+              >
+              <label
+                ><input type="radio" name="satisfaction" value="satisfait" />
+                Satisfait(e)</label
+              >
+              <label
+                ><input type="radio" name="satisfaction" value="mitige" />
+                Mitigé(e)</label
+              >
+              <label
+                ><input type="radio" name="satisfaction" value="insatisfait" />
+                Insatisfait(e)</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="satisfaction"
+                  value="tres_insatisfait"
+                />
+                Très insatisfait(e)</label
+              >
+            </div>
+
+            <label>6. Quels problèmes rencontrez-vous le plus souvent ?</label>
+            <div class="options">
+              <label
+                ><input type="checkbox" name="problemes" value="retards" />
+                Retards / fréquence insuffisante</label
+              >
+              <label
+                ><input type="checkbox" name="problemes" value="affluence" />
+                Affluence trop élevée</label
+              >
+              <label
+                ><input type="checkbox" name="problemes" value="cout" /> Coût
+                trop élevé</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="problemes"
+                  value="pistes_cyclables"
+                />
+                Manque de pistes cyclables sécurisées</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="problemes"
+                  value="stationnements"
+                />
+                Manque de stationnements pour vélos/trottinettes</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="problemes"
+                  value="acces_touristes"
+                />
+                Difficulté d’accès pour les touristes</label
+              >
+              <label
+                ><input type="checkbox" name="problemes" value="aucun" /> Aucun
+                problème notable</label
+              >
+              <label>Autre : <input type="text" name="autre_probleme" /></label>
+            </div>
+          </fieldset>
+
+          <!-- Section 3 : Transports non polluants -->
+          <fieldset>
+            <legend>3. Avis sur les transports non polluants</legend>
+
+            <label
+              >7. Selon vous, quels transports non polluants devraient être
+              priorités à Nice ?</label
+            >
+            <div class="options">
+              <label
+                ><input
+                  type="checkbox"
+                  name="priorite_transport"
+                  value="velo"
+                />
+                Vélo</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="priorite_transport"
+                  value="trottinette"
+                />
+                Trottinette</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="priorite_transport"
+                  value="tramway"
+                />
+                Tramway</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="priorite_transport"
+                  value="bus_electriques"
+                />
+                Bus électriques</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="priorite_transport"
+                  value="navettes_autonomes"
+                />
+                Navettes autonomes</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="priorite_transport"
+                  value="zones_pietonnes"
+                />
+                Modes piétons (zones piétonnes élargies)</label
+              >
+            </div>
+
+            <label
+              >8. Dans quelle mesure seriez-vous prêt(e) à utiliser davantage de
+              transports non polluants ?</label
+            >
+            <div class="options">
+              <label
+                ><input
+                  type="radio"
+                  name="pret_utilisation"
+                  value="tres_pret"
+                />
+                Très prêt(e)</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="pret_utilisation"
+                  value="plutot_pret"
+                />
+                Plutôt prêt(e)</label
+              >
+              <label
+                ><input type="radio" name="pret_utilisation" value="peu_pret" />
+                Peu prêt(e)</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="pret_utilisation"
+                  value="pas_du_tout"
+                />
+                Pas du tout</label
+              >
+            </div>
+
+            <label
+              >9. Quelles améliorations rendraient ces transports plus
+              attractifs ?</label
+            >
+            <div class="options">
+              <label
+                ><input
+                  type="checkbox"
+                  name="ameliorations"
+                  value="pistes_cyclables"
+                />
+                Plus de pistes cyclables sécurisées</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="ameliorations"
+                  value="reduction_couts"
+                />
+                Réduction des coûts</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="ameliorations"
+                  value="stations_location"
+                />
+                Stations de location mieux réparties</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="ameliorations"
+                  value="bus_electriques"
+                />
+                Plus de bus électriques / hybrides</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="ameliorations"
+                  value="zones_pietonnes"
+                />
+                Plus de zones piétonnes</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="ameliorations"
+                  value="signalisation_touristes"
+                />
+                Meilleure signalétique pour touristes</label
+              >
+              <label
+                >Autre : <input type="text" name="autre_amelioration"
+              /></label>
+            </div>
+          </fieldset>
+
+          <!-- Section 4 : Perception environnementale -->
+          <fieldset>
+            <legend>4. Perception environnementale</legend>
+
+            <label
+              >10. Pensez-vous que les transports non polluants sont
+              suffisamment développés à Nice ?</label
+            >
+            <div class="options">
+              <label
+                ><input type="radio" name="developpement" value="oui" />
+                Oui</label
+              >
+              <label
+                ><input type="radio" name="developpement" value="non" />
+                Non</label
+              >
+              <label
+                ><input type="radio" name="developpement" value="ne_sais_pas" />
+                Je ne sais pas</label
+              >
+            </div>
+
+            <label
+              >11. Selon vous, l’augmentation de ces transports pourrait-elle
+              améliorer :</label
+            >
+            <div class="options">
+              <label
+                ><input type="checkbox" name="impact" value="qualite_air" /> La
+                qualité de l’air</label
+              >
+              <label
+                ><input type="checkbox" name="impact" value="fluidite_trafic" />
+                La fluidité du trafic</label
+              >
+              <label
+                ><input type="checkbox" name="impact" value="confort" /> Le
+                confort des déplacements</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="impact"
+                  value="attractivite_touristique"
+                />
+                L’attractivité touristique</label
+              >
+              <label
+                ><input type="checkbox" name="impact" value="peu_impact" /> Peu
+                ou pas d’impact</label
+              >
+            </div>
+          </fieldset>
+
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
