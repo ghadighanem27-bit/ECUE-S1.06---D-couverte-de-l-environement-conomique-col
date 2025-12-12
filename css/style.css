@@ -347,6 +347,11 @@ button:hover {
   color: #bbbbbb;
 }
 
+.footer-section li {
+  line-height: 1.6;
+  color: #bbbbbb;
+}
+
 .footer-section ul {
   list-style: none;
   padding: 0;
@@ -362,10 +367,7 @@ button:hover {
   transition: none;
 }
 
-.footer-section ul li a:hover {
-  color: #4db6ac;
-  font-weight: bold;
-}
+
 
 
 .footer-bottom {
