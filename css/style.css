@@ -18,7 +18,8 @@ body {
   width: 100%;
 }
 
-html, body{
+html,
+body {
   height: 100vh;
 }
 
@@ -51,7 +52,13 @@ main {
   width: 100%;
   padding-top: 80px;
 }
-
+h2 span:hover {
+  backdrop-filter: blur(5px);
+  transform: scale(1.02);
+  background-color: rgba(0, 0, 0, 0.85);
+  transition: 0.225s;
+  border: 1px solid white;
+}
 h2 {
   text-align: center;
   color: white;
@@ -132,7 +139,6 @@ section.blog {
   margin-top: 8vh;
   min-width: 65vw;
   font-style: normal;
-
 }
 
 section.blog blockquote {
@@ -141,95 +147,93 @@ section.blog blockquote {
 
 /* Style général pour la liste */
 .liste ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 1rem 0;
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
 }
 
 .liste li {
   list-style: none;
-    position: relative;
-    margin: 0.6rem 0;
-    padding-left: 25px;
-    color: #f1f1f1;
-    font-size: 1.05rem;
-    line-height: 1.5;
+  position: relative;
+  margin: 0.6rem 0;
+  padding-left: 25px;
+  color: #f1f1f1;
+  font-size: 1.05rem;
+  line-height: 1.5;
 }
 
 /* Petit rond lumineux comme puce */
 .liste li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 8px;
-    height: 10px;
-    width: 10px;
-    background: #ffffffaa;
-    border-radius: 50%;
-    box-shadow: 0 0 6px #ffffff88;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  height: 10px;
+  width: 10px;
+  background: #ffffffaa;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #ffffff88;
 }
 
 /* ----- Sous-listes ----- */
-.liste li ul { 
+.liste li ul {
   margin-top: 0.5rem;
   padding-left: 25px; /* indentation claire */
 }
 
 .liste li ul li {
-    margin: 0.4rem 0;
-    padding-left: 20px;
-    opacity: 0.9;
+  margin: 0.4rem 0;
+  padding-left: 20px;
+  opacity: 0.9;
 }
 
 /* style différent pour les puces des sous-listes */
 .liste li ul li::before {
-    height: 8px;
-    width: 8px;
-    background: #3b7cd7;
-    box-shadow: 0 0 5px #ffffff;
+  height: 8px;
+  width: 8px;
+  background: #3b7cd7;
+  box-shadow: 0 0 5px #ffffff;
 }
 
-
-
-.side-nav li{
+.side-nav li {
   list-style: none;
 }
 
 /* Quand ouvert */
 #menu-toggle:checked ~ .side-nav {
-    left: 0;
+  left: 0;
 }
 
 /* Animation hamburger → X */
 #menu-toggle:checked + .hamburger {
-    background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #menu-toggle:checked + .hamburger span:nth-child(1) {
-    transform: translateY(13px) rotate(45deg);
+  transform: translateY(13px) rotate(45deg);
 }
 
 #menu-toggle:checked + .hamburger span:nth-child(2) {
-    opacity: 0;
+  opacity: 0;
 }
 
 #menu-toggle:checked + .hamburger span:nth-child(3) {
-    transform: translateY(-13px) rotate(-45deg);
+  transform: translateY(-13px) rotate(-45deg);
 }
 
 /* STYLE DU TEXTE DANS LE MENU (optionnel mais conseillé) */
 .side-nav a {
-    display: block;
-    padding: 15px 20px;
-    color: white;
-    font-size: 17px !important;
-    text-decoration: none;
-    transition: 0.25s;
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  font-size: 17px !important;
+  text-decoration: none;
+  transition: 0.25s;
 }
 
 .side-nav a:hover {
-    background: rgba(255,255,255,0.08);
-    padding-left: 30px;
+  background: rgba(255, 255, 255, 0.08);
+  padding-left: 30px;
 }
 
 .footer-content {
@@ -264,7 +268,7 @@ body {
   padding: 20px;
   background-color: rgba(30, 30, 30, 0.9);
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
 
 h1 {
@@ -299,7 +303,9 @@ label {
 }
 
 /* Inputs */
-input[type="radio"], input[type="checkbox"], input[type="text"] {
+input[type="radio"],
+input[type="checkbox"],
+input[type="text"] {
   margin-right: 10px;
 }
 
@@ -321,7 +327,6 @@ button {
 button:hover {
   background-color: #888888;
 }
-
 
 .footer-section h3 {
   color: white;
@@ -366,9 +371,6 @@ button:hover {
   color: #bbbbbb;
   transition: none;
 }
-
-
-
 
 .footer-bottom {
   backdrop-filter: blur(6px);
