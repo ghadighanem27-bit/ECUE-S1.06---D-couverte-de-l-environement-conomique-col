@@ -1,0 +1,99 @@
+@media print {
+    /* 1. Nettoyage radical : Fond blanc, texte noir, pas de marges parasites */
+    * {
+        background: white !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        transition: none !important;
+        transform: none !important;
+        backdrop-filter: none !important;
+    }
+
+    body {
+        background-image: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    /* 2. Suppression des éléments inutiles */
+    header, footer, .side-nav, img, button, .hamburger, #menu-toggle {
+        display: none !important;
+    }
+
+    main {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /* 3. Titre propre et bien espacé */
+    div.title {
+        margin-top: 0 !important;
+        margin-bottom: 50px !important;
+        text-align: center;
+    }
+
+    h2 span {
+        background: none !important;
+        border: none !important;
+        border-bottom: 2px solid black !important;
+        padding: 10px 20px !important;
+        font-size: 24pt !important;
+        text-transform: uppercase;
+        display: inline-block !important;
+    }
+
+    /* 4. Gestion propre de la division des pages */
+    .cards {
+        display: block !important;
+        margin: 0 !important;
+    }
+
+    section.blog {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 30px 0 !important;
+        padding: 0 !important;
+        background: none !important;
+        border: none !important;
+        page-break-inside: avoid; 
+        display: block !important;
+    }
+
+    /* 5. Style des titres de sections et textes */
+    section h3 {
+        text-align: left !important;
+        border-bottom: 1px solid black !important;
+        margin-bottom: 15px !important;
+        padding-bottom: 5px !important;
+        font-size: 16pt !important;
+    }
+
+    section blockquote, section.blog blockquote {
+        border: none !important;
+        border-left: 3px solid #ccc !important;
+        padding-left: 20px !important;
+        margin: 15px 0 !important;
+        text-align: left !important;
+        background: transparent !important;
+    }
+
+    /* 6. Correction des listes (puces noires simples) */
+    .liste li {
+        margin: 8px 0 !important;
+        padding-left: 20px !important;
+    }
+
+    .liste li::before {
+        background: black !important;
+        box-shadow: none !important;
+        border: none !important;
+    }
+
+    /* 7. Configuration de la feuille A4 */
+    @page {
+        size: A4;
+        margin: 2cm; 
+    }
+}

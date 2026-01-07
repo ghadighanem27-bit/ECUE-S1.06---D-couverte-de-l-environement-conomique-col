@@ -1,0 +1,86 @@
+@media (max-width: 800px) {
+    /* 1. Ajustement du Header et de la Nav principale */
+    nav ul {
+        height: auto; 
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav li {
+        height: auto;
+    }
+
+    nav > ul > li > a {
+        padding: 15px 10px;
+        font-size: 0.9rem;
+    }
+
+    nav li:first-child {
+        margin-right: 0; 
+        width: 100%;
+        text-align: center;
+    }
+
+    /* 2. Transformation de la side-nav (Menu de gauche) */
+    .side-nav {
+        position: static; /
+        width: 90% !important;
+        margin: 20px auto !important; 
+        display: block;
+        margin-top: 50px !important;
+       
+    }
+
+    .side-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .side-nav li {
+        margin-bottom: 5px;
+    }
+
+    /* Cacher les feuilles de palmier sur mobile pour gagner de la place */
+    .palm_right, .palm_left {
+        display: none !important;
+    }
+
+    /* 3. Ajustement du contenu principal */
+    main {
+        padding-top: 100px; 
+    }
+
+    .cards {
+        flex-direction: column; 
+        align-items: center;
+        gap: 20px;
+    }
+
+    section.blog {
+        width: 95vw !important;
+        min-width: 0;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    /* 4. Adaptation des titres et textes */
+    h2 span {
+        font-size: 1.5rem !important;
+        margin-top: 5vh;
+        width: 80%;
+    }
+
+    section h3 {
+        font-size: 1.1rem;
+    }
+
+    /* 5. Footer sur mobile */
+    .footer-content {
+        flex-direction: column;
+        width: 90%;
+        gap: 30px;
+    }
+}
