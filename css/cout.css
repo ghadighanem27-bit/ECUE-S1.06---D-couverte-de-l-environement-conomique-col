@@ -1,0 +1,123 @@
+.table-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 5vh auto;
+  overflow-x: auto;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 0.52vw 0.52vw 0px 0px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+}
+
+/* Largeurs de colonnes */
+.custom-table th:nth-child(1) {
+  width: 15%;
+}
+.custom-table th:nth-child(2) {
+  width: 40%;
+}
+.custom-table th:nth-child(3) {
+  width: 25%;
+}
+.custom-table th:nth-child(4) {
+  width: 20%;
+}
+
+/* Header */
+.custom-table thead th {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+  padding: 20px;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+/* Body */
+.custom-table tbody td {
+  padding: 15px 20px;
+  color: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+  border-right: 0.5px solid rgba(255, 255, 255, 0.9);
+  transition: 0.3s;
+}
+
+.custom-table tbody tr {
+  transition: all 0.225s ease-in-out;
+}
+
+.custom-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  transform: scale(1.01);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  position: relative;
+}
+
+.custom-table tbody td:last-child {
+  border-right: none;
+}
+
+/*footer*/
+.custom-table tfoot {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.custom-table tfoot tr {
+  background-color: transparent;
+}
+
+.custom-table tfoot td {
+  padding: 20px;
+  color: #ffffff;
+  font-size: 1.1em;
+  border: none;
+  white-space: nowrap;
+}
+
+.custom-table tfoot td:first-child {
+  text-align: left;
+  font-weight: bold;
+  color: #bdc3c7;
+  text-transform: uppercase;
+}
+
+.custom-table tfoot td:last-child {
+  text-align: right;
+  width: auto;
+}
+
+.titre-encadre {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px auto 20px auto;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.titre-encadre h2 {
+  margin: 0 0 10px 0;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.titre-encadre p {
+  margin: 0;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #bdc3c7;
+}

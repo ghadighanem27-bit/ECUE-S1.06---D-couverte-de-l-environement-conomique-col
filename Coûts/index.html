@@ -13,6 +13,8 @@
     />
     <link rel="stylesheet" href="/css/nav.css" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/cout.css" />
+    <link rel="stylesheet" href="/css/print.css" />
     <title>Renouvellement transport</title>
   </head>
   <body>
@@ -35,7 +37,7 @@
             <a href="/Solutions/index.html">Solutions <span></span></a>
           </li>
           <li class="animation">
-            <a href="/Coûts/index.html">Coûts <span></span></a>
+            <a href="/Coûts/index.html" class="active">Coûts <span></span></a>
           </li>
           <li class="animation">
             <a href="/Conclusion/index.html">Conclusion <span></span></a>
@@ -44,36 +46,162 @@
       </nav>
     </header>
     <main>
-      <div class="title">
-        <h2>
-          <span>Développer les transports non polluants dans la ville</span>
-        </h2>
-      </div>
-      <div class="cards">
-        <section class="acceuil">
-          <h3>27% des émissions</h3>
-          <blockquote>
-            Les transports représentent 27% des émissions de gaz à effet de
-            serre en France, dont la moitié provient de la voiture individuelle
-            selon le WWF France.
-          </blockquote>
-        </section>
-        <section class="acceuil">
-          <h3>Trajets courts</h3>
-          <blockquote>
-            Trajets courts En ville, près de la moitié des trajets en voiture
-            font moins de 3 km, des distances parfaitement adaptées pour des
-            alternatives non polluantes.
-          </blockquote>
-        </section>
-        <section class="acceuil">
-          <h3>Qualité de vie</h3>
-          <blockquote>
-            Réduire la pollution urbaine améliore la qualité de l'air et la
-            santé publique, tout en diminuant le stress lié aux embouteillages
-            quotidiens.
-          </blockquote>
-        </section>
+      <div class="table-container">
+        <div class="titre-encadre">
+          <h2>Budget d'Investissement Initial</h2>
+        </div>
+
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th>Poste de Dépense</th>
+              <th>Détails des Investissements</th>
+              <th>Objectifs & Justification</th>
+              <th>Estimation Coût</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Flotte Bus & Tramway</td>
+              <td>
+                <ul>
+                  <li>
+                    Achat de bus 100% électriques à haut niveau de service.
+                  </li>
+                  <li>
+                    Rénovation des rames de tramway (climatisation, ergonomie)
+                    et augmentation des fréquences.
+                  </li>
+                </ul>
+              </td>
+              <td>
+                Réduire les émissions, améliorer le confort thermique et
+                désaturer les heures de pointe.
+              </td>
+              <td>
+                Env. 600 000 € par bus<br />
+                Env. 2 M€ par rame de tram
+              </td>
+            </tr>
+            <tr>
+              <td>Infrastructures & Voirie</td>
+              <td>
+                <ul>
+                  <li>
+                    Création de pistes cyclables sécurisées (séparation
+                    physique).
+                  </li>
+                  <li>
+                    Installation de bornes de recharge harmonieuses et
+                    verdissement des espaces.
+                  </li>
+                </ul>
+              </td>
+              <td>
+                Sécuriser les mobilités douces et préserver l'esthétique urbaine
+                niçoise.
+              </td>
+              <td>
+                Env. 200 000 € par km de piste<br />
+                Env. 15 000 € par borne
+              </td>
+            </tr>
+            <tr>
+              <td>Numérique & Services</td>
+              <td>
+                <ul>
+                  <li>
+                    Développement de la "Super-App" (MaaS) pour regrouper tous
+                    les modes.
+                  </li>
+                  <li>Mise en place de la billettique unique multimodale.</li>
+                </ul>
+              </td>
+              <td>
+                Simplifier l'expérience usager pour encourager l'abandon de la
+                voiture individuelle.
+              </td>
+              <td>Env. 800 000 € pour le développement initial</td>
+            </tr>
+            <tr>
+              <td>Marketing & Incitation</td>
+              <td>
+                <ul>
+                  <li>
+                    Campagnes de communication 360° (affichage, web,
+                    événements).
+                  </li>
+                  <li>
+                    Subventions tarifaires (gratuité au lancement, offres
+                    étudiants).
+                  </li>
+                </ul>
+              </td>
+              <td>
+                Acquérir de nouveaux usagers et fidéliser par des avantages
+                financiers directs.
+              </td>
+              <td>Env. 250 000 € par campagne annuelle</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>TOTAL ESTIMÉ :</td>
+              <td colspan="3">
+                Environ <b>14 800 000 €</b> pour un nombre adéquat de nouvelles
+                infrastructures.
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <div class="titre-encadre">
+          <h2>Annexe : Coûts de Maintenance</h2>
+          <p>
+            Estimation des coûts annuels récurrents nécessaires à la pérennité
+            du projet.
+          </p>
+        </div>
+
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th>Domaine</th>
+              <th>Actions de Maintenance Requises</th>
+              <th>Réf. Solution</th>
+              <th>Coût Annuel Est.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Matériel Roulant</td>
+              <td>
+                Entretien des batteries électriques, nettoyage des rames,
+                réparations mécaniques.
+              </td>
+              <td>Assurer la fiabilité des bus électriques.</td>
+              <td>~ 800 000 € / an</td>
+            </tr>
+            <tr>
+              <td>Infrastructures</td>
+              <td>
+                Réparation des bornes dégradées, entretien du marquage au sol
+                des pistes cyclables.
+              </td>
+              <td>Réduire les risques de dégradations urbaines.</td>
+              <td>~ 150 000 € / an</td>
+            </tr>
+            <tr>
+              <td>Numérique (IT)</td>
+              <td>
+                Hébergement serveurs, corrections de bugs, support technique
+                utilisateur.
+              </td>
+              <td>Garantir un support technique réactif.</td>
+              <td>~ 100 000 € / an</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </main>
     <footer>
