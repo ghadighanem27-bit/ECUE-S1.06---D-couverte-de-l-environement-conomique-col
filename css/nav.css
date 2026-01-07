@@ -78,8 +78,8 @@ nav li:first-child {
 
 .side-nav {
   position: fixed;
-  top: 30vh; /* ajuste selon ton header */
-  left: 20px; /* distance du bord */
+  top: 30vh; 
+  left: 20px; 
   width: 12vw;
   background: rgba(0, 0, 0, 0.55);
   padding: 20px 15px;
@@ -107,7 +107,7 @@ nav li:first-child {
 .side-nav a {
   position: relative;
   display: inline-block;
-  padding-bottom: 4px; /* petit espace pour le soulignement */
+  padding-bottom: 4px; 
 }
 
 /* Ligne invisible au repos */
@@ -127,7 +127,6 @@ nav li:first-child {
   width: 100%;
 }
 
-/* Optionnel : effet de glissement à gauche */
 .side-nav a:not(.active):hover {
   padding-left: 5px;
   font-weight: 600;
