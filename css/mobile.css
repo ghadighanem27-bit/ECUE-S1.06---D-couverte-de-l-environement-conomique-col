@@ -90,4 +90,43 @@
         width: 90%;
         gap: 30px;
     }
+
+    .table-container {
+        width: 95% !important;
+        margin: 20px auto !important;
+        overflow-x: auto !important; 
+        -webkit-overflow-scrolling: touch; 
+    }
+
+    .custom-table {
+        min-width: 600px; 
+    }
+
+    .custom-table thead th, 
+    .custom-table tbody td {
+        padding: 12px 10px !important; 
+        font-size: 0.9rem;
+    }
+
+    /* On désactive les effets de survol/zoom qui gênent sur mobile */
+    .custom-table tbody tr:hover {
+        transform: none !important;
+        box-shadow: none !important;
+    }
+
+    /* Titre encadré sur mobile */
+    .titre-encadre {
+        width: 95% !important;
+        padding: 15px !important;
+    }
+
+    .titre-encadre h2 {
+        font-size: 1.4rem !important;
+    }
+
+    /* Ajustement des colonnes pour les petits écrans */
+    .custom-table th:nth-child(1) { width: auto; }
+    .custom-table th:nth-child(2) { width: auto; }
+    .custom-table th:nth-child(3) { width: auto; }
+    .custom-table th:nth-child(4) { width: auto; }
 }

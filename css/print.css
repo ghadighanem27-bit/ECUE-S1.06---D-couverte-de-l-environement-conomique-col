@@ -96,4 +96,56 @@
         size: A4;
         margin: 2cm; 
     }
+
+    .table-container {
+        width: 100% !important;
+        margin: 20px 0 !important;
+        overflow: visible !important; 
+    }
+
+    .custom-table {
+        background-color: white !important;
+        color: black !important;
+        border: 1px solid black !important;
+        box-shadow: none !important;
+        backdrop-filter: none !important;
+        page-break-inside: avoid; 
+    }
+
+    .custom-table thead th {
+        background-color: #f0f0f0 !important;
+        color: black !important;
+        border-bottom: 2px solid black !important;
+        padding: 10px !important;
+    }
+
+    .custom-table tbody td {
+        color: black !important;
+        border-bottom: 1px solid #ccc !important;
+        border-right: 1px solid #ccc !important;
+        padding: 8px !important;
+    }
+
+    .custom-table tfoot {
+        background-color: #f0f0f0 !important;
+        border-top: 2px solid black !important;
+    }
+
+    .custom-table tfoot td {
+        color: black !important;
+        font-weight: bold !important;
+    }
+
+    /* Titre encadré en version impression */
+    .titre-encadre {
+        background-color: transparent !important;
+        color: black !important;
+        border: 2px solid black !important;
+        box-shadow: none !important;
+        margin-top: 30px !important;
+    }
+
+    .titre-encadre p {
+        color: black !important;
+    }
 }
