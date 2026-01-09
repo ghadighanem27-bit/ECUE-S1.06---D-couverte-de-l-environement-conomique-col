@@ -178,7 +178,7 @@ section.blog blockquote {
 /* ----- Sous-listes ----- */
 .liste li ul {
   margin-top: 0.5rem;
-  padding-left: 25px; /* indentation claire */
+  padding-left: 25px;
 }
 
 .liste li ul li {

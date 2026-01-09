@@ -30,10 +30,10 @@
     /* 3. Titre propre et bien espacé */
     div.title {
     margin-top: 0 !important;
-    margin-bottom: 20px !important; /* Réduisez un peu cette marge */
+    margin-bottom: 20px !important;
     text-align: center;
-    page-break-after: avoid; /* Empêche le saut de page après le titre */
-    break-after: avoid;      /* Version moderne de la propriété */
+    page-break-after: avoid; 
+    break-after: avoid;
 }
 
 h2 {
