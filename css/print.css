@@ -29,25 +29,36 @@
 
     /* 3. Titre propre et bien espacé */
     div.title {
-        margin-top: 0 !important;
-        margin-bottom: 50px !important;
-        text-align: center;
-    }
+    margin-top: 0 !important;
+    margin-bottom: 20px !important; /* Réduisez un peu cette marge */
+    text-align: center;
+    page-break-after: avoid; /* Empêche le saut de page après le titre */
+    break-after: avoid;      /* Version moderne de la propriété */
+}
 
-    h2 span {
-        background: none !important;
-        border: none !important;
-        border-bottom: 2px solid black !important;
-        padding: 10px 20px !important;
-        font-size: 24pt !important;
-        text-transform: uppercase;
-        display: inline-block !important;
-    }
+h2 {
+    page-break-after: avoid;
+    break-after: avoid;
+}
+
+h2 span {
+    background: none !important;
+    border: none !important;
+    border-bottom: 2px solid black !important;
+    padding: 5px 10px !important;
+    font-size: 20pt !important;
+    text-transform: uppercase;
+    display: inline-block !important;
+}
 
     /* 4. Gestion propre de la division des pages */
     .cards {
         display: block !important;
         margin: 0 !important;
+    }
+
+    .acceuil{
+        width: 95vw !important;
     }
 
     section.blog {
